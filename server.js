@@ -2848,7 +2848,7 @@ app.use(express.static(__dirname));
 
 // ================= DB CONNECTION =================
 // 👇 UPDATED: CONNECTING TO YOUR CLOUD ATLAS DATABASE 👇
-const MONGO_URI = "mongodb+srv://suritasingh22_db_user:Surita123@cluster0.j2qdb5n.mongodb.net/MyDatabase?appName=Cluster0";
+const MONGO_URI = "mongodb+srv://suritasingh22_db_user:Surita123@cluster0.j2qdb5n.mongodb.net/Eduachieve?appName=Cluster0";
 
 mongoose.connect(MONGO_URI)
   .then(async () => {
